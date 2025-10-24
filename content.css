@@ -1,0 +1,14 @@
+/* Go Away Ads! - Basic Ad Hiding Rules */
+
+iframe[id^="ad"], iframe[class*="ad"], .ad, .ads, .adsbygoogle,
+[class*="advert"], [id*="advert"], [data-ad], [data-ad-client],
+div[id^="google_ads"], div[class*="sponsor"], [class*="banner"],
+section[class*="ad"], [aria-label*="advertisement"] {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+  overflow: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
